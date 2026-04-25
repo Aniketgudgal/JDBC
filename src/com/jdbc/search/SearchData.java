@@ -40,7 +40,7 @@ public class SearchData {
 		}
 		else
 		{
-			System.out.print("Proble to connect");
+			System.out.print("Problem to connect");
 		}
 	}
 
