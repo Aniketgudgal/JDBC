@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class DataInsertDB {
 
-	public static void main(String[] args) throws SQLException, IOException {
+	public static void main(String[] args) throws SQLException, IOException, NumberFormatException {
 		com.mysql.cj.jdbc.Driver d = new com.mysql.cj.jdbc.Driver();
 		DriverManager.registerDriver(d);
 		File file = new File("");
