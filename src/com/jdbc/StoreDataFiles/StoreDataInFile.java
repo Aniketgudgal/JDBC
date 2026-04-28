@@ -38,6 +38,7 @@ public class StoreDataInFile {
 				if(!f1.exists())
 				{
 					f1.createNewFile();
+					System.out.println("Output file created");
 				}
 				FileWriter fw = new FileWriter(f1);
 				BufferedWriter bf = new BufferedWriter(fw);
@@ -50,7 +51,7 @@ public class StoreDataInFile {
 				bf.close();
 				fw.close();
 				fs.close();
-				System.out.println("Data writed");
+				System.out.println("Data write");
 			}
 			else
 			{
